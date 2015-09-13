@@ -12,6 +12,7 @@ Page {
     id: page
 
     property bool isAppActive: true
+    property bool isTalbot: page.width > 540
 
     Connections {
         target: Qt.application
